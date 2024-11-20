@@ -1,0 +1,60 @@
+# Environment and credentials
+.env
+*.env
+.env.*
+credentials.json
+*config*.json
+*secrets*
+.aws/
+.ssh/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.virtualenv/
+*.pyc
+__pycache__/
+
+# Logs and cache
+*.log
+.cache/
+logs/
+.npm/
+.yarn/
+node_modules/
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-*
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Build and dist
+dist/
+build/
+*.pyc
+*.pyo
+*.pyd
+.Python
+develop-eggs/
+downloads/
+eggs/
+parts/
+*.egg-info/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Personal configs
+.bash_history
+.python_history
+.zsh_history
